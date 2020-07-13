@@ -1,0 +1,23 @@
+.algorithmsHolder {
+  position: absolute;
+  width: 100%;
+  float: bottom;
+  display: none;
+  visibility: hidden;
+  top: 100%;
+  z-index: -1;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+  z-index: 99;
+}
+.algorithmsHolder div {
+  position: absolute;
+  background-color: rgb(48, 38, 38);
+  width: 100%;
+  flex: 1;
+  border-top: 1px solid rgb(94, 85, 85);
+  transition-duration: 200ms;
+}
